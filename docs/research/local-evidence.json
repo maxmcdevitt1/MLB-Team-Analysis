@@ -1,0 +1,109 @@
+{
+  "review_date": "2026-09-06",
+  "files": {
+    "01PrepareData.ipynb": {
+      "sha256": "969c26d265ed38c520df5d4efb0f9a4d0d85eecfb7120105f4824e6add221f5a"
+    },
+    "01PrepareData.py": {
+      "sha256": "534207f5f9ca0b4eb50750666354f60ee2c6bd4f08f2c6184aeeee2c4dd2e656"
+    },
+    "02CreateMetrics.ipynb": {
+      "sha256": "7043c86cf02fd6ffefd648612e61faa8bd195194408ac2ee1274f5466d95932f"
+    },
+    "02CreateMetrics.py": {
+      "sha256": "0a67964b546cfad4bb41a7f428bf12e7af073d206ff7ef0d123587492a424e82"
+    },
+    "03-BuildTrainingData.py": {
+      "sha256": "504d82f67a02056b0c738b5f46af04357c7a4256d1dbe5e234622c3ab1fa5d80"
+    },
+    "03.ipynb": {
+      "sha256": "3d3a1ab315babfee19d530888d4734f67a393c8e0a88fcf45c0e1eea5cd968eb"
+    },
+    "04TrainModel.ipynb": {
+      "sha256": "7179dca19a981727d6d6dcaf5ec64eee9407eed15eceadbae66eee3e7290d33b"
+    },
+    "04TrainModel.py": {
+      "sha256": "6c3bbcf107034c1093632a10dab741bf6538092ba00193f7b313fbbfe615951e"
+    },
+    "data/batting_snapshots.parquet": {
+      "sha256": "c09b4117aa26e0e3980bdf1e0d3c876c68bb939dbbff899073dc8bb8c57dec37",
+      "shape": [
+        1140,
+        36
+      ]
+    },
+    "data/final_records.parquet": {
+      "sha256": "f6ee99ce9a450312ae445c51e3e06d8d8e49353065fc6c7e8b2ec7e02bb3c151",
+      "shape": [
+        300,
+        4
+      ]
+    },
+    "data/model_metrics.parquet": {
+      "sha256": "da2a2542ea88c8813ad75d43730e4e4aa853fb5209a880e0b6d9114527c5f98f",
+      "shape": [
+        1140,
+        24
+      ]
+    },
+    "data/pitching_snapshots.parquet": {
+      "sha256": "95c057a802bce04fc0a8059c1a70a8c74d67c13aa5c2cb3d30ad29cbeead25b2",
+      "shape": [
+        1140,
+        63
+      ]
+    },
+    "data/snapshot_records.parquet": {
+      "sha256": "226f1b707c8a73f46b5aff34a8651e3357ecfff4d208ac308283e425b60b932a",
+      "shape": [
+        1140,
+        5
+      ]
+    },
+    "data/team_snapshots.parquet": {
+      "sha256": "f647a85eebf21feffd53e5af079ed9a0a1c9f106ac851efcc697be68c2ef176b",
+      "shape": [
+        1140,
+        96
+      ]
+    },
+    "data/test_predictions.parquet": {
+      "sha256": "f14af28b43df979e475596beb770a60696c54a80aa320f9565487dd5ddb1f785",
+      "shape": [
+        30,
+        9
+      ]
+    },
+    "data/test_results.parquet": {
+      "sha256": "1b433574ca8b15ff9a5137da026d42ec5bdf081f678b27b4c851b118f31dd16d",
+      "shape": [
+        3,
+        3
+      ]
+    },
+    "data/training_data.parquet": {
+      "sha256": "a61998340e0d633c4d17a229279e8b6dde670b15cb1d2cf2ed108fe75ef6c8ad",
+      "shape": [
+        1140,
+        30
+      ]
+    },
+    "data/validation_predictions.parquet": {
+      "sha256": "6e5858f600b39c4763fd24448ffb49e9cc2be58d9aa9746cf7fe862bd0233dc9",
+      "shape": [
+        60,
+        9
+      ]
+    },
+    "data/validation_results.parquet": {
+      "sha256": "505b48848b8946b5fd0cdedae08d4689ea101c533bc7f970385e0141b950fd7f",
+      "shape": [
+        4,
+        3
+      ]
+    },
+    "test_pipeline.py": {
+      "sha256": "d30ead8fc1655830e4120414a6414a28a0e96943576bcb619fb2517dc15e9cbd"
+    }
+  }
+}
