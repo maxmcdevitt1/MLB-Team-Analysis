@@ -5,11 +5,17 @@ import pandas as pd
 import statsapi
 
 DATA_DIR = Path(__file__).resolve().parent / "data"
-SEASONS = range(2016, 2026)
+SEASONS = range(2016, 2027)
 CUTOFF_MONTHS = (6, 7, 8, 9)
 
 
-def get_team_stats(season, cutoff, group):
+def get_team_stats(season, cutoff, group):    
+    for i in statsapi.meta('statGroups'):
+        print(i)
+    for i in statsapi.meta('statTypes'):
+            print(i)
+    #print(statsapi.meta('statGroups'),'\n')
+    #print(statsapi.meta('statTypes'))
     response = statsapi.get(
         "teams_stats",
         {

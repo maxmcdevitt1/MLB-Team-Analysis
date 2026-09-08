@@ -7,8 +7,7 @@ import numpy as np
 import pandas as pd
 
 features = import_module("02CreateMetrics")
-from BuildTrainingData import build_training_data
-
+build_training_data = import_module("03-BuildTrainingData").build_training_data
 
 def snapshot():
     rows = []

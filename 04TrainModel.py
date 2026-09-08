@@ -162,7 +162,7 @@ def main():
 
     save_results(DATA_DIR, validation_predictions, validation_results,
                  test_predictions, test_results, selected_name)
-
+    return test_predictions, test_results, selected_name
 
 if __name__ == "__main__":
-    main()
+    test_predictions, test_results, selected_name = main()
